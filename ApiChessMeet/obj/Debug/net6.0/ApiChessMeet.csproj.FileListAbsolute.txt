@@ -1,0 +1,122 @@
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\appsettings.Development.json
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\appsettings.json
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.exe
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.deps.json
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.runtimeconfig.json
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.pdb
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.csproj.AssemblyReference.cache
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.AssemblyInfoInputs.cache
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.AssemblyInfo.cs
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.csproj.CoreCompileInputs.cache
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.MvcApplicationPartsAssemblyInfo.cs
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.MvcApplicationPartsAssemblyInfo.cache
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\staticwebassets.build.json
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\staticwebassets.development.json
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\scopedcss\bundle\ApiChessMeet.styles.css
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.csproj.CopyComplete
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\refint\ApiChessMeet.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.pdb
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.genruntimeconfig.cache
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ref\ApiChessMeet.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\DalChessMeet.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ApiChessMeet\bin\Debug\net6.0\DalChessMeet.pdb
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\appsettings.json
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.exe
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.deps.json
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.runtimeconfig.json
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.dll
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.pdb
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\DalChessMeet.dll
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\bin\Debug\net6.0\DalChessMeet.pdb
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.csproj.AssemblyReference.cache
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.AssemblyInfoInputs.cache
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.AssemblyInfo.cs
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.csproj.CoreCompileInputs.cache
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\scopedcss\bundle\ApiChessMeet.styles.css
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.csproj.CopyComplete
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.dll
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\refint\ApiChessMeet.dll
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.pdb
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.genruntimeconfig.cache
+C:\Users\steph\Desktop\github\ChessMeet\ApiChessMeet\obj\Debug\net6.0\ref\ApiChessMeet.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\Files_20220908\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.csproj.AssemblyReference.cache
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\Files_20220908\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\Files_20220908\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.AssemblyInfoInputs.cache
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\Files_20220908\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.AssemblyInfo.cs
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\Files_20220908\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.csproj.CoreCompileInputs.cache
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\Files_20220908\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.MvcApplicationPartsAssemblyInfo.cs
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\Files_20220908\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.MvcApplicationPartsAssemblyInfo.cache
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\Files_20220908\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\Files_20220908\ApiChessMeet\obj\Debug\net6.0\refint\ApiChessMeet.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\Files_20220908\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.pdb
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.csproj.AssemblyReference.cache
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.AssemblyInfoInputs.cache
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.AssemblyInfo.cs
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.csproj.CoreCompileInputs.cache
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.MvcApplicationPartsAssemblyInfo.cache
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\appsettings.Development.json
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\appsettings.json
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.exe
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.deps.json
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.runtimeconfig.json
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\ApiChessMeet.pdb
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\DalChessMeet.dll
+D:\Desktop\LABO\CM\ApiChessMeet\bin\Debug\net6.0\DalChessMeet.pdb
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\staticwebassets.build.json
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\staticwebassets.development.json
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\scopedcss\bundle\ApiChessMeet.styles.css
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.csproj.CopyComplete
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.dll
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\refint\ApiChessMeet.dll
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.pdb
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.genruntimeconfig.cache
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\ref\ApiChessMeet.dll
+D:\Desktop\LABO\CM\ApiChessMeet\obj\Debug\net6.0\ApiChessMeet.MvcApplicationPartsAssemblyInfo.cs
