@@ -14,6 +14,10 @@
         public int CurrentRound { get; set; }
         public bool WomenOnly { get; set; }
         public DateTime EndRegistration { get; set; }
+        public bool Canregister { get; set; }
+        public bool IsRegistered { get; set; }
+        public int CountPlayers { get; set; }
+
 
         public TournamentDTO(DalChessMeet.Entities.Tournament tournament)
         {
@@ -29,6 +33,9 @@
             CurrentRound = tournament.CurrentRound;
             WomenOnly = tournament.WomenOnly;
             EndRegistration = tournament.EndRegistration;
+            Canregister = tournament.CanRegister;
+            IsRegistered = tournament.IsRegistered;
+            CountPlayers = tournament.CountPlayers;
         }
 
 

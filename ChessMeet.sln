@@ -7,7 +7,12 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ChessDB", "ChessDB\ChessDB.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiChessMeet", "ApiChessMeet\ApiChessMeet.csproj", "{2E98200E-3F0E-4837-A80A-7BF0CCDE6C52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalChessMeet", "DalChessMeet\DalChessMeet.csproj", "{9C58988F-29E0-43AE-A6CD-0BB27AB8638C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DalChessMeet", "DalChessMeet\DalChessMeet.csproj", "{9C58988F-29E0-43AE-A6CD-0BB27AB8638C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5DBB07C5-AE0A-4F32-B70D-752FEB6F47B0}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

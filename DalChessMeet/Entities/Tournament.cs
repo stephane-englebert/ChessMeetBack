@@ -23,5 +23,9 @@ namespace DalChessMeet.Entities
         public DateTime CreatedAt { get; set; }
         public DateTime EndRegistration { get; set; }
         public DateTime UpdatedAt { get; set; }
+        public bool CanRegister { get; set; }
+        public bool IsRegistered { get; set; }
+        public int CountPlayers { get; set; }
+
     }
 }

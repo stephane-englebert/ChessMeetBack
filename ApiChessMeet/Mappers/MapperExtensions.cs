@@ -35,6 +35,8 @@ namespace ApiChessMeet.Mappers
         {
             return new DalChessMeet.Entities.Registration
             {
+                Id = 0,
+                PlayerId = 0,
                 TournamentGuid = dto.TournamentGuid
             };
         }

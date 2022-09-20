@@ -1,4 +1,6 @@
-﻿using DalChessMeet.Interfaces;
+﻿using ApiChessMeet.DTO;
+using ApiChessMeet.Mappers;
+using DalChessMeet.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -22,23 +24,25 @@ namespace ApiChessMeet.Controllers
 
         [Authorize(Roles = "admin,player")]
         [HttpPost]
-        public IActionResult Post(string g)
+
+        public IActionResult Post(RegistrationFormDTO dto)
         {
-            DalChessMeet.Entities.TournamentDetails tournamentDetails = _tournamentRepository.GetTournamentByGuid(g);
+            DalChessMeet.Entities.Registration registration = dto.FormToDalRegistrations();
+            DalChessMeet.Entities.TournamentDetails tournamentDetails = _tournamentRepository.GetTournamentByGuid(registration.TournamentGuid);
             int userId = int.Parse(User.FindFirstValue("Id"));
             int userElo = int.Parse(User.FindFirstValue("Elo"));
             string userGender = User.FindFirstValue("Gender");
             DateTime userBirthdate = DateTime.Parse(User.FindFirstValue("Birthdate"));
-            int userAge = GetAge(userBirthdate,tournamentDetails.EndRegistration);
+            int userAge = GetAge(userBirthdate, tournamentDetails.EndRegistration);
             string userCategory = "";
-            if(userAge < 18) { userCategory = "junior";}
-            if(userAge >= 18 && userAge < 60) { userCategory = "senior";}
-            if(userAge >= 60) { userCategory = "veteran";}
+            if (userAge < 18) { userCategory = "junior"; }
+            if (userAge >= 18 && userAge < 60) { userCategory = "senior"; }
+            if (userAge >= 60) { userCategory = "veteran"; }
             string[] categories = tournamentDetails.Categories.Split(',');
             int categoryCount = 0;
             foreach (string category in categories)
             {
-                if (userCategory == category){categoryCount++;}
+                if (userCategory == category) { categoryCount++; }
             }
             if (tournamentDetails.Status != "waitingForPlayers")
             {
@@ -48,34 +52,31 @@ namespace ApiChessMeet.Controllers
             {
                 return BadRequest("Trop tard, la date de fin des inscriptions est dépassée!");
             }
-            if(_registrationRepository.CheckIfRegistered(g, userId.ToString()))
+            if (_registrationRepository.CheckIfRegistered(registration.TournamentGuid, userId.ToString()))
             {
                 return BadRequest("Vous êtes déjà inscrit(e) à ce tournoi!");
             }
-            if(tournamentDetails.PlayersMin == tournamentDetails.PlayersMax)
+            if (tournamentDetails.PlayersMin == tournamentDetails.PlayersMax)
             {
                 return BadRequest("Désolé, le tournoi est complet!");
             }
-            if(categoryCount == 0) { 
-                return BadRequest("Les catégories du tournoi ne correspondent pas à votre âge!"); 
+            if (categoryCount == 0)
+            {
+                return BadRequest("Les catégories du tournoi ne correspondent pas à votre âge!");
             }
-            if(tournamentDetails.EloMax > 0 && userElo > tournamentDetails.EloMax)
+            if (tournamentDetails.EloMax > 0 && userElo > tournamentDetails.EloMax)
             {
                 return BadRequest("L'Elo maximum autorisé pour participer est : " + tournamentDetails.EloMax);
             }
-            if(tournamentDetails.EloMin > 0 && userElo < tournamentDetails.EloMin)
+            if (tournamentDetails.EloMin > 0 && userElo < tournamentDetails.EloMin)
             {
                 return BadRequest("L'Elo minimum pour participer est : " + tournamentDetails.EloMin);
             }
-            if(tournamentDetails.WomenOnly && userGender == "male")
+            if (tournamentDetails.WomenOnly && userGender == "male")
             {
                 return BadRequest("Ce tournoi est interdit aux hommes!");
             }
-            DalChessMeet.Entities.Registration registration = new DalChessMeet.Entities.Registration
-            {
-                PlayerId = userId,
-                TournamentGuid = g
-            };
+            registration.PlayerId = userId;
             _registrationRepository.AddRegistration(registration);
             return NoContent();
         }
@@ -89,14 +90,26 @@ namespace ApiChessMeet.Controllers
 
         [Authorize(Roles = "admin,player")]
         [HttpDelete]
-        public IActionResult Delete(string g)
+        public IActionResult Delete(RegistrationFormDTO dto)
         {
-            string userId = User.FindFirstValue("Id");
-            DalChessMeet.Entities.TournamentDetails tournamentDetails = _tournamentRepository.GetTournamentByGuid(g);
-            if(tournamentDetails.Status == "waitingForPlayers" && _registrationRepository.CheckIfRegistered(g,userId))
+            DalChessMeet.Entities.Registration registration = dto.FormToDalRegistrations();
+            int userId = int.Parse(User.FindFirstValue("Id"));
+            registration.PlayerId = userId;
+            DalChessMeet.Entities.TournamentDetails tournamentDetails = _tournamentRepository.GetTournamentByGuid(registration.TournamentGuid);
+            if(tournamentDetails.Status == "inProgress")
             {
-                _registrationRepository.DeleteRegistration(g,userId);
+                BadRequest("Le tournoi est en cours.  Vous ne pouvez plus vous désinscrire!");
             }
+            if(tournamentDetails.Status == "Closed")
+            {
+                BadRequest("Le tournoi est fini.");
+            }
+            if (!_registrationRepository.CheckIfRegistered(registration.TournamentGuid, userId.ToString()))
+            {
+                BadRequest("Vous n'êtes pas inscrit à ce tournoi!...");
+            }
+            _registrationRepository.DeleteRegistration(registration);
+            
             return NoContent();
         }
     }

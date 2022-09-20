@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0006: Fichier de métadonnées 'D:\Desktop\LABO\CM\DalChessMeet\obj\Debug\net6.0\ref\DalChessMeet.dll' introuvable
+dotnet_diagnostic.CS0006.severity = none

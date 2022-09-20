@@ -4,6 +4,7 @@ using DalChessMeet.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace ApiChessMeet.Controllers
 {
@@ -12,16 +13,26 @@ namespace ApiChessMeet.Controllers
     public class TournamentsController : ControllerBase
     {
         private readonly ITournamentRepository _tournamentRepository;
+        private readonly IRegistrationRepository _registrationRepository;
 
-        public TournamentsController(ITournamentRepository tournamentRepository)
+        public TournamentsController(ITournamentRepository tournamentRepository,IRegistrationRepository registrationRepository)
         {
             _tournamentRepository = tournamentRepository;
+            _registrationRepository = registrationRepository;
         }
 
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(_tournamentRepository.GetTournaments().Select(t => new TournamentDTO(t)));
+            if (User.FindFirstValue("Id") != null)
+            {
+                int userId = int.Parse(User.FindFirstValue("Id"));
+                return Ok(_tournamentRepository.GetTournamentsByUserId(userId).Select(t => new TournamentDTO(t)));
+            }
+            else
+            {
+                return Ok(_tournamentRepository.GetTournaments().Select(t => new TournamentDTO(t)));
+            }
         }
 
         [Authorize(Roles = "admin")]
@@ -77,7 +88,7 @@ namespace ApiChessMeet.Controllers
 
         [Authorize(Roles ="admin")]
         [HttpDelete]
-        public IActionResult Delete(Guid g)
+        public IActionResult Delete(string g)
         {
             _tournamentRepository.DeleteTournament(g);
             return NoContent();

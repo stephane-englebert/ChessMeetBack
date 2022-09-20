@@ -23,14 +23,14 @@ namespace DalChessMeet.Repositories
             cmd.Parameters.AddWithValue("gd", registration.TournamentGuid);
             cmd.ExecuteNonQuery();
         }
-        public void DeleteRegistration(string gd, string id)
+        public void DeleteRegistration(Entities.Registration registration)
         {
             using SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             using SqlCommand cmd = connection.CreateCommand();
             cmd.CommandText = @"DELETE FROM [Registrations] WHERE tournament_guid = @gd AND player_id=@id";
-            cmd.Parameters.AddWithValue("gd", gd);
-            cmd.Parameters.AddWithValue("id", id);
+            cmd.Parameters.AddWithValue("gd", registration.TournamentGuid);
+            cmd.Parameters.AddWithValue("id", registration.PlayerId);
             cmd.ExecuteNonQuery();
         }
         public bool CheckIfRegistered(string gd, string player_id)
@@ -40,7 +40,7 @@ namespace DalChessMeet.Repositories
             using SqlCommand cmd = connection.CreateCommand();
             cmd.CommandText = @"SELECT * FROM [Registrations] WHERE player_id = @player_id AND tournament_guid = @gd";
             cmd.Parameters.AddWithValue("player_id", int.Parse(player_id));
-            cmd.Parameters.AddWithValue("gd", gd.ToString());
+            cmd.Parameters.AddWithValue("gd", gd);
             SqlDataReader reader = cmd.ExecuteReader();
             int cpt = 0;
             while (reader.Read())

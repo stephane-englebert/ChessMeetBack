@@ -10,10 +10,11 @@ namespace DalChessMeet.Interfaces
     public interface ITournamentRepository
     {
         IEnumerable<Entities.Tournament> GetTournaments();
+        IEnumerable<Entities.Tournament> GetTournamentsByUserId(int userId);
         IEnumerable<Entities.MemberDetails> GetTournamentPlayersDetails(string g);
         void AddTournament(Entities.Tournament tournament);
         bool ExistGuid(Guid g);
-        void DeleteTournament(Guid id);
+        void DeleteTournament(string id);
         Entities.TournamentDetails GetTournamentByGuid(string g);
     }
 }

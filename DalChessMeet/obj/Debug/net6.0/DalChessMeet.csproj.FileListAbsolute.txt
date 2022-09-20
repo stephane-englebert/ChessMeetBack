@@ -30,14 +30,14 @@ D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\Files_20220908
 D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\Files_20220908\DalChessMeet\obj\Debug\net6.0\DalChessMeet.dll
 D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\Files_20220908\DalChessMeet\obj\Debug\net6.0\refint\DalChessMeet.dll
 D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\Files_20220908\DalChessMeet\obj\Debug\net6.0\DalChessMeet.pdb
+D:\Desktop\LABO\CM\DalChessMeet\bin\Debug\net6.0\DalChessMeet.deps.json
+D:\Desktop\LABO\CM\DalChessMeet\bin\Debug\net6.0\DalChessMeet.dll
+D:\Desktop\LABO\CM\DalChessMeet\bin\Debug\net6.0\DalChessMeet.pdb
 D:\Desktop\LABO\CM\DalChessMeet\obj\Debug\net6.0\DalChessMeet.csproj.AssemblyReference.cache
 D:\Desktop\LABO\CM\DalChessMeet\obj\Debug\net6.0\DalChessMeet.GeneratedMSBuildEditorConfig.editorconfig
 D:\Desktop\LABO\CM\DalChessMeet\obj\Debug\net6.0\DalChessMeet.AssemblyInfoInputs.cache
 D:\Desktop\LABO\CM\DalChessMeet\obj\Debug\net6.0\DalChessMeet.AssemblyInfo.cs
 D:\Desktop\LABO\CM\DalChessMeet\obj\Debug\net6.0\DalChessMeet.csproj.CoreCompileInputs.cache
-D:\Desktop\LABO\CM\DalChessMeet\bin\Debug\net6.0\DalChessMeet.deps.json
-D:\Desktop\LABO\CM\DalChessMeet\bin\Debug\net6.0\DalChessMeet.dll
-D:\Desktop\LABO\CM\DalChessMeet\bin\Debug\net6.0\DalChessMeet.pdb
 D:\Desktop\LABO\CM\DalChessMeet\obj\Debug\net6.0\DalChessMeet.dll
 D:\Desktop\LABO\CM\DalChessMeet\obj\Debug\net6.0\refint\DalChessMeet.dll
 D:\Desktop\LABO\CM\DalChessMeet\obj\Debug\net6.0\DalChessMeet.pdb

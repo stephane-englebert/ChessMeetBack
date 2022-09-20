@@ -9,7 +9,7 @@ namespace DalChessMeet.Interfaces
     public interface IRegistrationRepository
     {
         void AddRegistration(Entities.Registration registration);
-        void DeleteRegistration(string g, string id);
+        void DeleteRegistration(Entities.Registration registration);
         bool CheckIfRegistered(string gd, string player_id);
     }
 }
